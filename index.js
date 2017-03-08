@@ -5,16 +5,14 @@ const fs = require('fs');
 const path = require('path');
 const data = {};
 
-const dataFiles = fs.readdirSync('./data');
+const dataFolder = __dirname + '/data';
+const dataFiles = fs.readdirSync(dataFolder);
 
 for (let file of dataFiles) {
-	data[path.basename(file, path.extname(file))] = require('./data/'+file);
+	data[path.basename(file, path.extname(file))] = require(dataFolder + '/' + file);
 }
-
-console.log(data);
 
 module.exports = {
     Error: require('./lib/error'),
-    ioClient: require('./lib/client'),
     data
 };
