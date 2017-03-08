@@ -1,0 +1,6 @@
+{
+  "success": "SUCCESS",
+  "error": "UNKNOWN_ERROR",
+  "authFail": "AUTHENTICATION_FAILED",
+  "noAuth": "NO_AUTH"
+}

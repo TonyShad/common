@@ -1,0 +1,23 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "Common files for u2ber project",
+  "main": "index.js",
+  "files": [
+    "data/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McSim1993/common.git"
+  },
+  "author": "McSim1993",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/McSim1993/common/issues"
+  },
+  "homepage": "https://github.com/McSim1993/common#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "socket.io": "^1.7.3"
+  }
+}
