@@ -1,6 +1,6 @@
 {
   "name": "common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common files for u2ber project",
   "main": "index.js",
   "files": [
