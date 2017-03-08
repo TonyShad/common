@@ -4,7 +4,8 @@
   "description": "Common files for u2ber project",
   "main": "index.js",
   "files": [
-    "data/"
+    "data/",
+    "lib/"
   ],
   "repository": {
     "type": "git",
