@@ -14,5 +14,6 @@ for (let file of dataFiles) {
 
 module.exports = {
     Error: require('./lib/error'),
+    logger: require('./lib/logger'),
     data
 };
