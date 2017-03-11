@@ -1,6 +1,6 @@
 {
   "name": "common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Common files for u2ber project",
   "main": "index.js",
   "files": [
@@ -20,6 +20,7 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "node-uuid": "^1.4.7",
+    "scribe-js": "^2.0.4",
     "socket.io": "^1.7.3",
     "socket.io-client": "latest"
   }
