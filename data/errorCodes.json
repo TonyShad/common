@@ -1,5 +1,6 @@
 {
   "unknown": "UNKNOWN_ERROR",
   "authFail": "AUTHENTICATION_FAILED",
-  "noAuth": "NO_AUTH"
+  "noAuth": "NO_AUTH",
+  "notFound": "NOT_FOUND"
 }
